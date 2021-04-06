@@ -1,0 +1,79 @@
+.navigation-menu {
+  position: absolute;
+  top: 30px;
+  z-index: 1000;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+ul.navigation-nav li {
+  list-style: none;
+  float: left;
+  padding: 10px 15px;
+  background-color: #0f99ff;
+  transition: all 0.2s ease;
+}
+
+ul.navigation-nav li:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+ul.navigation-nav li:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+ul.navigation-nav li:hover {
+  background-color: #3ab7ff;
+}
+
+ul.navigation-nav li>a {
+  color: white;
+}
+
+ul.navigation-nav {
+  padding-left: 0;
+}
+
+.absensi-card .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.kehadiran-table {
+  max-height: 500px;
+}
+
+.laporan-table {
+  max-height: 240px;
+}
+.penilaian-table {
+  max-height: 235px;
+}
+
+.card-body {
+  padding: 0;
+}
+.header-svg {
+  position: absolute;
+  top: 0;
+  height: 200px;
+  width: 100%;
+  z-index: -10;
+}
+.logo-header {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 32px;
+}
+.table .thead-custom th {
+  background-color: #ecb210;
+  color: #fff;
+}
+.kehadiran-table thead th, .laporan-table thead th, .penilaian-table thead th {
+  position: sticky;
+  top: 0;
+  border-top: 1px;
+}
